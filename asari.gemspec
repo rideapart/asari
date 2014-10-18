@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Tommy Morgan"]
   s.email       = ["tommy@wellbredgrapefruit.com"]
   s.license     = "MIT"
-  s.homepage    = "http://github.com/duwanis/asari"
+  s.homepage    = "http://github.com/wellbredgrapefruit/asari"
   s.summary     = %q{Asari is a Ruby interface for AWS CloudSearch.}
   s.description = %q{Asari s a Ruby interface for AWS CloudSearch}
 
@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency "httparty"
   s.add_runtime_dependency "aws-sdk"
+  s.add_runtime_dependency "aws-sdk-core", '~> 2.0'
 
   s.add_development_dependency "rake"
   s.add_development_dependency "rspec"
